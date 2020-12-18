@@ -41,7 +41,7 @@ h2 {
 }
 
 .container {
-  outline: 2px solid gold;
+  /* outline: 2px solid gold; */
   width: 1200px;
   margin: 0 auto;
   padding-right: 15px;
@@ -342,6 +342,11 @@ footer {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+}
+
+/* нижнее подчеркивание хедера в портфолио */
+.header-line {
+  border-bottom: 1px solid #ececec;
 }
 
 /* кнопки портфолио */
