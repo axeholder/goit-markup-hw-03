@@ -42,7 +42,7 @@ h2 {
 
 .container {
   outline: 2px solid gold;
-  width: 1150px;
+  width: 1200px;
   margin: 0 auto;
   padding-right: 15px;
   padding-left: 15px;
@@ -227,6 +227,26 @@ h2 {
   font-size: 14px;
   line-height: 1.71;
   margin-top: 10px;
+}
+
+/* чем мы занимаемся */
+.container > .section-title {
+  width: 376px;
+  height: 42px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.work-description {
+  display: flex;
+}
+
+.work-description .item {
+  width: 370px;
+}
+
+.work-description .item:not(:last-child) {
+  margin-right: 30px;
 }
 
 /* наша команда */
