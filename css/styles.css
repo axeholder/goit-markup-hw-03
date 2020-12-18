@@ -230,7 +230,7 @@ h2 {
 }
 
 /* чем мы занимаемся */
-.container > .section-title {
+.container > .what-we-do {
   width: 376px;
   height: 42px;
   margin-left: auto;
@@ -239,6 +239,7 @@ h2 {
 
 .work-description {
   display: flex;
+  margin-top: 50px;
 }
 
 .work-description .item {
@@ -254,18 +255,51 @@ h2 {
   background-color: #f5f4fa;
 }
 
+.our-team .container {
+  margin-top: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  height: 648px;
+}
+
+.container .team {
+  width: 264px;
+  height: 42px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ot-list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.ot-list .item {
+  background-color: #fff;
+  border-radius: 0 0 4px 4px;
+}
+.ot-list .item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .ot-list .title {
   color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.9;
   text-align: center;
+  margin-top: 30px;
+  height: 19px;
 }
 .ot-list .position {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
   text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  height: 19px;
 }
 
 /* подвал */
@@ -273,13 +307,36 @@ footer {
   background-color: #2f303a;
 }
 
+.footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer .logo {
+  margin-top: 60px;
+  /* height: 31px; */
+}
+
 .adress {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   color: #ffffff;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  margin-top: 20px;
 }
+.adress .link {
+  height: 21px;
+}
+
+.adress .link:not(:first-child) {
+  margin-top: 9px;
+}
+
 .adress a {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
