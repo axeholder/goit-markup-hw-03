@@ -27,10 +27,12 @@
           >
           <ul class="site-nav">
             <li class="item">
-              <a href="./index.html" class="header-link current">Студия</a>
+              <a href="./index.html" class="header-link">Студия</a>
             </li>
             <li class="item">
-              <a href="./portfolio.html" class="header-link">Портфолио</a>
+              <a href="./portfolio.html" class="header-link current"
+                >Портфолио</a
+              >
             </li>
             <li class="item"><a href="#" class="header-link">Контакты</a></li>
           </ul>
@@ -45,105 +47,112 @@
     </header>
 
     <main>
-      <section>
-        <h1 class="section-title">Портфолио</h1>
-        <!-- кнопки фильтра -->
+      <section class="section">
+        <div class="container portfolio-items">
+          <h1 class="section-title visually-hidden">Портфолио</h1>
+          <!-- кнопки фильтра -->
 
-        <ul>
-          <li><button type="button" class="button-secondary">Все</button></li>
-          <li>
-            <button type="button" class="button-secondary">Веб-сайты</button>
-          </li>
-          <li>
-            <button type="button" class="button-secondary">Приложения</button>
-          </li>
-          <li>
-            <button type="button" class="button-secondary">Дизайн</button>
-          </li>
-          <li>
-            <button type="button" class="button-secondary">Маркетинг</button>
-          </li>
-        </ul>
+          <ul class="filter-items">
+            <li class="item">
+              <button type="button" class="button-secondary">Все</button>
+            </li>
+            <li class="item">
+              <button type="button" class="button-secondary">Веб-сайты</button>
+            </li>
+            <li class="item">
+              <button type="button" class="button-secondary">Приложения</button>
+            </li>
+            <li class="item">
+              <button type="button" class="button-secondary">Дизайн</button>
+            </li>
+            <li class="item">
+              <button type="button" class="button-secondary">Маркетинг</button>
+            </li>
+          </ul>
 
-        <!-- ссылки на работы -->
-        <h2 class="section-title">Примеры работ</h2>
-        <ul class="portfolio-list">
-          <li>
-            <a href="#"
-              ><img
-                src="./images/prtf/prtf1.jpg"
-                alt="Ноутбук с фотографиями людей"
-              />
-              <h3 class="title">Технокряк</h3>
-              <p>Веб-сайт</p></a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><img
-                src="./images/prtf/prtf2.jpg"
-                alt="Два баскетболиста борются за мяч"
-              />
-              <h3 class="title">Постер New Orlean vs Golden Star</h3>
-              <p>Дизайн</p></a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><img
-                src="./images/prtf/prtf3.jpg"
-                alt="Текст на фоне трафарета рыбы"
-              />
-              <h3 class="title">Ресторан Seafood</h3>
-              <p>Приложение</p></a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><img src="./images/prtf/prtf4.jpg" alt="Наушники" />
-              <h3 class="title">Проект Prime</h3>
-              <p>Маркетинг</p></a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><img src="./images/prtf/prtf5.jpg" alt="Две картонные коробки" />
-              <h3 class="title">Проект Boxes</h3>
-              <p>Приложение</p></a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><img src="./images/prtf/prtf6.jpg" alt="Монитор" />
-              <h3 class="title">Inspiration has no Borders</h3>
-              <p>Веб-сайт</p></a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><img src="./images/prtf/prtf7.jpg" alt="Розкрытый журнал" />
-              <h3 class="title">Издание Limited Edition</h3>
-              <p>Дизайн</p></a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><img src="./images/prtf/prtf8.jpg" alt="Бирка одежды" />
-              <h3 class="title">Проект LAB</h3>
-              <p>Маркетинг</p></a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><img
-                src="./images/prtf/prtf9.jpg"
-                alt="Человек работает за ноутбуком, круплый план"
-              />
-              <h3 class="title">Growing Business</h3>
-              <p>Приложение</p></a
-            >
-          </li>
-        </ul>
+          <!-- ссылки на работы -->
+          <h2 class="section-title visually-hidden">Примеры работ</h2>
+          <ul class="portfolio-list">
+            <li class="item">
+              <a href="#"
+                ><img
+                  src="./images/prtf/prtf1.jpg"
+                  alt="Ноутбук с фотографиями людей"
+                />
+                <h3 class="title">Технокряк</h3>
+                <p class="portfolio-index">Веб-сайт</p></a
+              >
+            </li>
+            <li class="item">
+              <a href="#"
+                ><img
+                  src="./images/prtf/prtf2.jpg"
+                  alt="Два баскетболиста борются за мяч"
+                />
+                <h3 class="title">Постер New Orlean vs Golden Star</h3>
+                <p class="portfolio-index">Дизайн</p></a
+              >
+            </li>
+            <li class="item">
+              <a href="#"
+                ><img
+                  src="./images/prtf/prtf3.jpg"
+                  alt="Текст на фоне трафарета рыбы"
+                />
+                <h3 class="title">Ресторан Seafood</h3>
+                <p class="portfolio-index">Приложение</p></a
+              >
+            </li>
+            <li class="item">
+              <a href="#"
+                ><img src="./images/prtf/prtf4.jpg" alt="Наушники" />
+                <h3 class="title">Проект Prime</h3>
+                <p class="portfolio-index">Маркетинг</p></a
+              >
+            </li>
+            <li class="item">
+              <a href="#"
+                ><img
+                  src="./images/prtf/prtf5.jpg"
+                  alt="Две картонные коробки"
+                />
+                <h3 class="title">Проект Boxes</h3>
+                <p class="portfolio-index">Приложение</p></a
+              >
+            </li>
+            <li class="item">
+              <a href="#"
+                ><img src="./images/prtf/prtf6.jpg" alt="Монитор" />
+                <h3 class="title">Inspiration has no Borders</h3>
+                <p class="portfolio-index">Веб-сайт</p></a
+              >
+            </li>
+            <li class="item">
+              <a href="#"
+                ><img src="./images/prtf/prtf7.jpg" alt="Розкрытый журнал" />
+                <h3 class="title">Издание Limited Edition</h3>
+                <p class="portfolio-index">Дизайн</p></a
+              >
+            </li>
+            <li class="item">
+              <a href="#"
+                ><img src="./images/prtf/prtf8.jpg" alt="Бирка одежды" />
+                <h3 class="title">Проект LAB</h3>
+                <p class="portfolio-index">Маркетинг</p></a
+              >
+            </li>
+            <li class="item">
+              <a href="#"
+                ><img
+                  src="./images/prtf/prtf9.jpg"
+                  alt="Человек работает за ноутбуком, круплый план"
+                />
+                <h3 class="title">Growing Business</h3>
+                <p class="portfolio-index">Приложение</p></a
+              >
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
