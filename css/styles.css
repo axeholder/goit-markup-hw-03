@@ -192,7 +192,7 @@ h2 {
   margin: -1px;
 }
 
-.container-features {
+.section-features {
   padding-top: 96px;
   /* padding-bottom: 94px; */
 }
@@ -227,7 +227,7 @@ h2 {
 }
 
 /* чем мы занимаемся */
-.section .work-description {
+.work-description {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -254,9 +254,6 @@ h2 {
 /* наша команда */
 .our-team {
   background-color: #f5f4fa;
-}
-
-.our-team .container {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -301,19 +298,15 @@ h2 {
 }
 
 /* подвал */
-footer {
+.footer {
   background-color: #2f303a;
+  padding-top: 60px;
 }
 
 .footer .container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-}
-
-.footer .logo {
-  margin-top: 60px;
-  /* height: 31px; */
 }
 
 .adress {
@@ -356,6 +349,7 @@ footer {
 .filter-items {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .button-secondary {
@@ -385,20 +379,30 @@ footer {
 /* портфолио */
 
 .portfolio-list {
-  margin-top: 50px;
+  /* margin-top: 50px; */
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  margin-right: -30px;
+  margin-top: -30px;
+  /* justify-content: space-around; */
 }
 
 .portfolio-list .item {
   text-align: left;
-  padding-bottom: 20px;
-  border: 1px solid #eeeeee;
+  margin-right: 30px;
+  margin-top: 30px;
+  flex-basis: calc(100% / 3 - 30px);
 }
 
-.portfolio-list .item:not(:nth-child(-n + 3)) {
+/* .portfolio-list .item:not(:nth-child(-n + 3)) {
   margin-top: 30px;
+} */
+
+.item-description {
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  padding: 20px 24px;
 }
 
 .portfolio-list .title {
@@ -408,20 +412,13 @@ footer {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-
-  margin-top: 20px;
-  margin-left: 24px;
 }
 
-.portfolio-list p {
+.portfolio-index {
   color: var(--main-text-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
-  margin-left: 24px;
-}
-
-.portfolio-index {
   display: inline-block;
   margin-top: 4px;
 }
